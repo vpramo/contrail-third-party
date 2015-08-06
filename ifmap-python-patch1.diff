@@ -60,7 +60,7 @@ index c0f748c..103caa6 100644
  
  	__envelope ="""<?xml version="1.0" encoding="UTF-8"?>
  <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" %(ns)s>
-@@ -49,18 +72,31 @@ class client:
+@@ -49,18 +70,31 @@ class client:
  </env:Envelope>
  """
  
@@ -100,7 +100,7 @@ index c0f748c..103caa6 100644
  
  	def last_sent(self):
  		return self.__last_sent
-@@ -71,31 +107,77 @@ class client:
+@@ -71,31 +105,77 @@ class client:
  	def envelope(self, body) :
  		_ns = ""
  		for ns_prefix, ns_uri in self.__namespaces.items():
