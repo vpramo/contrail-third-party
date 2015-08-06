@@ -24,7 +24,7 @@ index c0f748c..103caa6 100644
  from logging import getLogger
  
  log = getLogger(__name__) # when imported, the logger will be named "ifmap.client"
-@@ -23,23 +34,35 @@ except ImportError:
+@@ -23,23 +34,33 @@ except ImportError:
  			f = http_client_lib.urlopen(http_client_lib.Request(url, body, headers))
  			return f.info(), f.read()
  
