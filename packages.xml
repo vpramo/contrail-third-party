@@ -110,7 +110,7 @@
     <url>https://github.com/redis/hiredis/archive/v0.11.0.tar.gz</url>
     <local-filename>hiredis-v0.11.0.tar.gz</local-filename>
     <format>tgz</format>
-    <md5>e2ac29509823ccc96990b6fe765b5d46</md5>
+    <md5>c3ba292cb8a6d84da3aae774a33d4356</md5>
     <patches>
       <patch strip="2">hiredis-patch1.diff</patch>
     </patches>
