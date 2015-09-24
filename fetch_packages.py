@@ -16,7 +16,7 @@ import argparse
 _RETRIES = 5
 _OPT_VERBOSE = None
 _OPT_DRY_RUN = None
-_PACKAGE_CACHE='/tmp/cache/' + os.environ['USER'] + '/third_party'
+_PACKAGE_CACHE='/tmp/cache/' + '/third_party'
 _NODE_MODULES='./node_modules'
 _TMP_NODE_MODULES=_PACKAGE_CACHE + '/' + _NODE_MODULES
 
