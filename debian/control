@@ -2,7 +2,27 @@ Source: contrail-third-party
 Section: misc
 Priority: optional
 Maintainer: Overcast Pkgbuild Service <pkgbuild@overcastcloud.com>
-Build-Depends: debhelper (>= 9.0.0), python, python-dev, python-lxml, autoconf, autotools-dev, automake
+Build-Depends: debhelper (>= 9.0.0),
+               autoconf,
+               automake,
+               bison,
+               flex,
+               libcurl4-openssl-dev,
+               libexpat-dev,
+               libgettextpo0,
+               libprotobuf-dev,
+               libtool,
+               libxml2-utils,
+               make,
+               protobuf-compiler,
+               python-all (>= 2.7),
+               python-dev,
+               python-lxml,
+               python-setuptools,
+               python-sphinx,
+               ruby-ronn,
+               scons (>= 2.1.0),
+               unzip
 Standards-Version: 3.9.4
 
 
