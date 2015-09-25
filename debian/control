@@ -22,7 +22,8 @@ Build-Depends: debhelper (>= 9.0.0),
                python-sphinx,
                ruby-ronn,
                scons (>= 2.1.0),
-               unzip
+               unzip,
+               wget
 Standards-Version: 3.9.4
 
 
